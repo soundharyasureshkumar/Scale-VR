@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Form</title>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <!-- partial:index.partial.html -->
+  <br><br><br><br>
+  <div class="container">
+    <div class="well">
+      <h3 class="signup">Signin</h3>
+      <br>
+
+      <!-- <form id="signup" role="form"> -->
+        <div class="input-group signup">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input  type="text" class="form-control" name="email"  id="email" placeholder="Email">
+        </div>
+
+        <div class="input-group signup">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+          <input  type="password" class="form-control" name="password"  id="password" placeholder="Password">
+          <button style="margin-left: 150px "  class="btn btn-primary signup"  onclick="signin()" id="signup">Signin</button>
+
+        </div>
+        <!-- </form> -->
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="signin_script.js"></script>
+  </body>
+  </html>

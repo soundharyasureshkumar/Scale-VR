@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>upload</title>
+	<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-storage.js"></script>
+
+
+</head>
+<body>
+
+	<form action="" enctype="multipart/form-data" method="post">
+		<div class="upload" style="margin-top: 200px ">
+			<fieldset >
+			<center>
+				<label>
+					Select Image :
+				</label>
+				<input  type="file"  id="image" accept="image/*"><br><br>
+				<button type="button"  onclick="upload()">Upload</button>
+			</center>
+		</fieldset>
+		</form>
+
+
+	</body>
+
+<style type="text/css">
+	fieldset{
+		width: 500px;
+		height: 100px;
+		padding-top: 100px;
+		margin-left: 400px;
+	}
+
+</style>
+
+
+	<script src="upload_script.js"></script>
+	</html>
